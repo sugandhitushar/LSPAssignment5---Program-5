@@ -1,0 +1,17 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ make run
+
+DESCRIPTION - 
+Program which performs interprocess communication using the concept of message queue.
+
+Example -
+# make
+gcc -o messageQueue program.c
+
+# make run
+./messageQueue
+Enter the message: Hi All
+Received Message: Hi All
